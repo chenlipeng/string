@@ -1,0 +1,19 @@
+{
+    "name": "clp/autoload",
+    "description": "The test files that aim to test the function of autoload",
+    "type": "library",
+    "license": "None",
+    "authors": [
+        {
+            "name": "chenlipeng",
+            "email": "chenlipeng@oneniceapp.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Clp\\Autoload\\Lib\\": "src/Lib"
+        }
+    },
+    "require": {}
+}
